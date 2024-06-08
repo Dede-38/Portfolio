@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #121212;
   color: #FFFFFF;
   margin: 0;
@@ -38,7 +38,13 @@ header {
   margin-right: 50px;
   font-size: 2rem;
 }
+.Ma-photo{
+  padding-right: 100px;
+}
 
+.Mes-info{
+  font-size: large;
+}
 .stat {
   display: inline-block;
   margin: 20px;
@@ -133,7 +139,7 @@ h2 {
 article {
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: black 0px 0px 20px 10px;
   margin-bottom: 2rem;
 }
 
@@ -144,9 +150,9 @@ article {
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 20px;
-  width: 100%;
+  width: 90%;
   margin: 20px;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.1s ease-in-out;
 }
 
 .Containers:hover{
@@ -157,6 +163,7 @@ article {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 
@@ -178,7 +185,7 @@ article {
   width: 300px;
   height: 150px;
   margin-left: 100px;
-  margin-right: 50px;
+  margin-right: 25px;
   justify-content: center;
 }
 
@@ -190,7 +197,25 @@ article {
 .Containers-liste img:hover {
   transform: scale(1.5);
 }
+.sae
+{
+  color: #333;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 20px;
+  width: 60%;
+  margin: 20px;
+  transition: box-shadow 0.1s ease-in-out;
+}
 
+.sae img{
+  height: 150px;
+  width: 500px;
+}
+.sae:hover{
+  box-shadow: white 0px 0px 20px 3px;
+}
 
 /* Footer */
 footer {
